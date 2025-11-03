@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "7b5f5eb65ff8f4cfcb4ef95289d03555"
+build_time: [1560758487, 677785000]
+inputs:
+  "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/coreML2/APIManager.swift": [1560498437, 48926185]
+  "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/coreML2/CameraViewController.swift": [1558694386, 0]
+  "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/coreML2/mainViewController.swift": [1558698264, 0]
+  "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/coreML2/ObjectDetectViewController.swift": [1558696717, 0]
+  "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/coreML2/AWSRekoViewController.swift": [1560520860, 87016505]
+  "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/coreML2/ShowAllImagesViewController.swift": [1559131849, 223335523]
+  "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/coreML2/AllImagesCVCell.swift": [1559121099, 807764983]
+  "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/coreML2/CreateVideoViewController.swift": [1560520888, 223753027]
+  "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/coreML2/ViewController.swift": [1558698915, 0]
+  "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/coreML2/AppDelegate.swift": [1558950514, 0]
+  "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Intermediates.noindex/coreML2.build/Debug-iphoneos/coreML2.build/DerivedSources/CoreMLGenerated/Resnet50/Resnet50.swift": [1560758487, 657272115]
+  "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Intermediates.noindex/coreML2.build/Debug-iphoneos/coreML2.build/DerivedSources/CoreMLGenerated/iphoneModel/iphoneModel.swift": [1560758487, 535695773]

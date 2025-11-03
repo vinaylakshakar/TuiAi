@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "f35808d376c937bce3221be79a1d4488"
+build_time: [1560757919, 691615000]
+inputs:
+  "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/Pods/SwiftyJSON/Source/SwiftyJSON/SwiftyJSON.swift": [1560324478, 70087979]

@@ -1,0 +1,289 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FlowersInput"
+- "FlowersOutput"
+- "Flowers"
+provides-nominal:
+- "7coreML212FlowersInputC"
+- "7coreML213FlowersOutputC"
+- "7coreML27FlowersC"
+provides-member:
+- ["7coreML212FlowersInputC", ""]
+- ["7coreML213FlowersOutputC", ""]
+- ["7coreML27FlowersC", ""]
+provides-dynamic-lookup:
+- "featureNames"
+- "featureValue"
+depends-top-level:
+- !private "..<"
+- !private "=="
+- "AssignmentPrecedence"
+- !private "Bundle"
+- !private "FloatLiteralType"
+- "Flowers"
+- "FlowersInput"
+- "FlowersOutput"
+- !private "IntegerLiteralType"
+- !private "MLArrayBatchProvider"
+- !private "MLDictionaryFeatureProvider"
+- "MLFeatureProvider"
+- "MLFeatureValue"
+- "MLModel"
+- "MLModelConfiguration"
+- "MLMultiArray"
+- "MLPredictionOptions"
+- "Set"
+- "String"
+- "StringLiteralType"
+- "URL"
+- !private "type"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "reserveCapacity"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "reserveCapacity"]
+- !private ["So8NSBundleC", "init"]
+- !private ["So8NSBundleC", "url"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "multiArrayValue"]
+- !private ["s7CVarArgP", "prediction"]
+- !private ["s7CVarArgP", "predictions"]
+- !private ["s7CVarArgP", "reserveCapacity"]
+- !private ["s7CVarArgP", "url"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "reserveCapacity"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "reserveCapacity"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "multiArrayValue"]
+- !private ["s28CustomDebugStringConvertibleP", "prediction"]
+- !private ["s28CustomDebugStringConvertibleP", "predictions"]
+- !private ["s28CustomDebugStringConvertibleP", "reserveCapacity"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "reserveCapacity"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "multiArrayValue"]
+- !private ["s23CustomStringConvertibleP", "prediction"]
+- !private ["s23CustomStringConvertibleP", "predictions"]
+- !private ["s23CustomStringConvertibleP", "reserveCapacity"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "reserveCapacity"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "reserveCapacity"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "reserveCapacity"]
+- !private ["SQ", "append"]
+- !private ["SQ", "count"]
+- !private ["SQ", "init"]
+- ["SQ", "multiArrayValue"]
+- !private ["SQ", "prediction"]
+- !private ["SQ", "predictions"]
+- !private ["SQ", "reserveCapacity"]
+- !private ["SQ", "url"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "reserveCapacity"]
+- !private ["7coreML27FlowersC", "Bundle"]
+- !private ["7coreML27FlowersC", "Flowers"]
+- ["7coreML27FlowersC", "FlowersInput"]
+- ["7coreML27FlowersC", "FlowersOutput"]
+- !private ["7coreML27FlowersC", "MLArrayBatchProvider"]
+- ["7coreML27FlowersC", "MLModel"]
+- ["7coreML27FlowersC", "MLModelConfiguration"]
+- ["7coreML27FlowersC", "MLMultiArray"]
+- ["7coreML27FlowersC", "MLPredictionOptions"]
+- ["7coreML27FlowersC", "URL"]
+- ["7coreML27FlowersC", "init"]
+- ["7coreML27FlowersC", "model"]
+- ["7coreML27FlowersC", "prediction"]
+- ["7coreML27FlowersC", "predictions"]
+- !private ["7coreML27FlowersC", "type"]
+- ["7coreML27FlowersC", "urlOfModelInThisBundle"]
+- ["7coreML212FlowersInputC", "MLFeatureValue"]
+- ["7coreML212FlowersInputC", "MLMultiArray"]
+- ["7coreML212FlowersInputC", "Set"]
+- ["7coreML212FlowersInputC", "String"]
+- ["7coreML212FlowersInputC", "deinit"]
+- ["7coreML212FlowersInputC", "featureNames"]
+- ["7coreML212FlowersInputC", "featureValue"]
+- ["7coreML212FlowersInputC", "featureValueForName"]
+- ["7coreML212FlowersInputC", "init"]
+- ["7coreML212FlowersInputC", "input__0"]
+- !private ["7coreML213FlowersOutputC", "MLDictionaryFeatureProvider"]
+- ["7coreML213FlowersOutputC", "MLFeatureProvider"]
+- ["7coreML213FlowersOutputC", "MLFeatureValue"]
+- ["7coreML213FlowersOutputC", "MLMultiArray"]
+- ["7coreML213FlowersOutputC", "Set"]
+- ["7coreML213FlowersOutputC", "String"]
+- ["7coreML213FlowersOutputC", "deinit"]
+- ["7coreML213FlowersOutputC", "featureNames"]
+- ["7coreML213FlowersOutputC", "featureValue"]
+- ["7coreML213FlowersOutputC", "featureValueForName"]
+- ["7coreML213FlowersOutputC", "final_result__0"]
+- !private ["7coreML213FlowersOutputC", "final_result__0.storage"]
+- ["7coreML213FlowersOutputC", "init"]
+- ["7coreML213FlowersOutputC", "provider"]
+- !private ["SH", "append"]
+- !private ["SH", "count"]
+- !private ["SH", "init"]
+- ["SH", "multiArrayValue"]
+- !private ["SH", "prediction"]
+- !private ["SH", "predictions"]
+- !private ["SH", "reserveCapacity"]
+- !private ["SH", "url"]
+- !private ["So20MLArrayBatchProviderC", "init"]
+- !private ["So15MLBatchProviderP", "count"]
+- !private ["So15MLBatchProviderP", "features"]
+- !private ["So15MLBatchProviderP", "init"]
+- !private ["So27MLDictionaryFeatureProviderC", "init"]
+- !private ["So17MLFeatureProviderP", "MLDictionaryFeatureProvider"]
+- !private ["So17MLFeatureProviderP", "MLFeatureValue"]
+- ["So17MLFeatureProviderP", ""]
+- ["So17MLFeatureProviderP", "featureNames"]
+- ["So17MLFeatureProviderP", "featureValue"]
+- ["So17MLFeatureProviderP", "featureValueForName"]
+- !private ["So17MLFeatureProviderP", "init"]
+- !private ["So17MLFeatureProviderP", "input__0"]
+- ["So17MLFeatureProviderP", "provider"]
+- !private ["So14MLFeatureValueC", "init"]
+- ["So14MLFeatureValueC", "multiArrayValue"]
+- !private ["So7MLModelC", "init"]
+- !private ["So7MLModelC", "prediction"]
+- !private ["So7MLModelC", "predictions"]
+- !private ["So19MLPredictionOptionsC", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "reserveCapacity"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "reserveCapacity"]
+- !private ["So9NSCopyingP", "init"]
+- ["So9NSCopyingP", "multiArrayValue"]
+- !private ["So17NSFastEnumerationP", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "multiArrayValue"]
+- !private ["So8NSObjectC", "prediction"]
+- !private ["So8NSObjectC", "predictions"]
+- !private ["So8NSObjectC", "url"]
+- !private ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "multiArrayValue"]
+- !private ["So8NSObjectP", "prediction"]
+- !private ["So8NSObjectP", "predictions"]
+- !private ["So8NSObjectP", "url"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "reserveCapacity"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "reserveCapacity"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "reserveCapacity"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "reserveCapacity"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "reserveCapacity"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "reserveCapacity"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reserveCapacity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "multiArrayValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "prediction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "predictions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "reserveCapacity"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "So8NSBundleC"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "7coreML27FlowersC"
+- "7coreML212FlowersInputC"
+- "7coreML213FlowersOutputC"
+- "SH"
+- !private "So20MLArrayBatchProviderC"
+- !private "So15MLBatchProviderP"
+- !private "So27MLDictionaryFeatureProviderC"
+- "So17MLFeatureProviderP"
+- "So14MLFeatureValueC"
+- !private "So7MLModelC"
+- !private "So19MLPredictionOptionsC"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So9NSCopyingP"
+- !private "So17NSFastEnumerationP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Vision.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreML.framework/Headers/CoreML.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Vision.framework/Headers/Vision.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "00d02635935a8f1eafa753a0220f4f43"

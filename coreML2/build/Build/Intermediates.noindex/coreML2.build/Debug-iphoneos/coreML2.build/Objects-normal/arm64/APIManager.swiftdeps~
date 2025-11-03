@@ -1,0 +1,456 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "APIManager"
+provides-nominal:
+- "7coreML210APIManagerC"
+provides-member:
+- ["7coreML210APIManagerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "+"
+- "APIManager"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Error"
+- "JSON"
+- !private "JSONSerialization"
+- !private "NSMutableURLRequest"
+- "NSObject"
+- !private "NSURL"
+- "String"
+- "StringLiteralType"
+- !private "URL"
+- !private "URLRequest"
+- !private "URLSession"
+- "Void"
+- !private "print"
+depends-member:
+- ["7coreML210APIManagerC", "APIManager"]
+- ["7coreML210APIManagerC", "Error"]
+- ["7coreML210APIManagerC", "JSON"]
+- !private ["7coreML210APIManagerC", "JSONSerialization"]
+- !private ["7coreML210APIManagerC", "NSMutableURLRequest"]
+- !private ["7coreML210APIManagerC", "NSURL"]
+- ["7coreML210APIManagerC", "String"]
+- !private ["7coreML210APIManagerC", "URL"]
+- !private ["7coreML210APIManagerC", "URLRequest"]
+- !private ["7coreML210APIManagerC", "URLSession"]
+- ["7coreML210APIManagerC", "Void"]
+- ["7coreML210APIManagerC", "baseURL"]
+- ["7coreML210APIManagerC", "deinit"]
+- ["7coreML210APIManagerC", "getData"]
+- ["7coreML210APIManagerC", "init"]
+- !private ["7coreML210APIManagerC", "print"]
+- ["7coreML210APIManagerC", "sharedInstance"]
+- ["7coreML210APIManagerC", "startEndpoint"]
+- ["7coreML210APIManagerC", "startTraining"]
+- ["s7CVarArgP", "APIManager"]
+- !private ["s7CVarArgP", "JSON"]
+- !private ["s7CVarArgP", "JSONSerialization"]
+- !private ["s7CVarArgP", "NSMutableURLRequest"]
+- !private ["s7CVarArgP", "NSURL"]
+- !private ["s7CVarArgP", "URLSession"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "baseURL"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "httpBody"]
+- !private ["s7CVarArgP", "httpMethod"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "setValue"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "startEndpoint"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "APIManager"]
+- !private ["s28CustomDebugStringConvertibleP", "JSON"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONSerialization"]
+- !private ["s28CustomDebugStringConvertibleP", "NSMutableURLRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "NSURL"]
+- !private ["s28CustomDebugStringConvertibleP", "URLSession"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "baseURL"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "httpBody"]
+- !private ["s28CustomDebugStringConvertibleP", "httpMethod"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "startEndpoint"]
+- ["s23CustomStringConvertibleP", "APIManager"]
+- !private ["s23CustomStringConvertibleP", "JSON"]
+- !private ["s23CustomStringConvertibleP", "JSONSerialization"]
+- !private ["s23CustomStringConvertibleP", "NSMutableURLRequest"]
+- !private ["s23CustomStringConvertibleP", "NSURL"]
+- !private ["s23CustomStringConvertibleP", "URLSession"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "baseURL"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "httpBody"]
+- !private ["s23CustomStringConvertibleP", "httpMethod"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "startEndpoint"]
+- !private ["Se", "init"]
+- !private ["SE", "init"]
+- ["SQ", "APIManager"]
+- !private ["SQ", "JSON"]
+- !private ["SQ", "JSONSerialization"]
+- !private ["SQ", "NSMutableURLRequest"]
+- !private ["SQ", "NSURL"]
+- !private ["SQ", "URLSession"]
+- ["SQ", ""]
+- !private ["SQ", "baseURL"]
+- !private ["SQ", "data"]
+- !private ["SQ", "dataTask"]
+- !private ["SQ", "httpBody"]
+- !private ["SQ", "httpMethod"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "print"]
+- !private ["SQ", "resume"]
+- !private ["SQ", "setValue"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "startEndpoint"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "APIManager"]
+- !private ["SH", "JSON"]
+- !private ["SH", "JSONSerialization"]
+- !private ["SH", "NSMutableURLRequest"]
+- !private ["SH", "NSURL"]
+- !private ["SH", "URLSession"]
+- ["SH", ""]
+- !private ["SH", "baseURL"]
+- !private ["SH", "data"]
+- !private ["SH", "dataTask"]
+- !private ["SH", "httpBody"]
+- !private ["SH", "httpMethod"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "print"]
+- !private ["SH", "resume"]
+- !private ["SH", "setValue"]
+- !private ["SH", "shared"]
+- !private ["SH", "startEndpoint"]
+- !private ["10SwiftyJSON0B0V", "init"]
+- !private ["So19NSJSONSerializationC", "data"]
+- !private ["So8NSCodingP", "httpBody"]
+- !private ["So8NSCodingP", "httpMethod"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "setValue"]
+- !private ["So9NSCopyingP", "httpBody"]
+- !private ["So9NSCopyingP", "httpMethod"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So9NSCopyingP", "setValue"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "httpBody"]
+- !private ["So16NSMutableCopyingP", "httpMethod"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "setValue"]
+- !private ["So19NSMutableURLRequestC", "httpBody"]
+- !private ["So19NSMutableURLRequestC", "httpMethod"]
+- !private ["So19NSMutableURLRequestC", "init"]
+- !private ["So19NSMutableURLRequestC", "setValue"]
+- ["So8NSObjectC", "APIManager"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "JSON"]
+- !private ["So8NSObjectC", "JSONSerialization"]
+- !private ["So8NSObjectC", "NSMutableURLRequest"]
+- !private ["So8NSObjectC", "NSURL"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "URLRequest"]
+- !private ["So8NSObjectC", "URLSession"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "baseURL"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "dataTask"]
+- ["So8NSObjectC", "getData"]
+- !private ["So8NSObjectC", "httpBody"]
+- !private ["So8NSObjectC", "httpMethod"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "setValue"]
+- !private ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "sharedInstance"]
+- ["So8NSObjectC", "startEndpoint"]
+- ["So8NSObjectC", "startTraining"]
+- ["So8NSObjectP", "APIManager"]
+- !private ["So8NSObjectP", "JSON"]
+- !private ["So8NSObjectP", "JSONSerialization"]
+- !private ["So8NSObjectP", "NSMutableURLRequest"]
+- !private ["So8NSObjectP", "NSURL"]
+- !private ["So8NSObjectP", "URLSession"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "baseURL"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "dataTask"]
+- !private ["So8NSObjectP", "httpBody"]
+- !private ["So8NSObjectP", "httpMethod"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "setValue"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "startEndpoint"]
+- !private ["So14NSSecureCodingP", "httpBody"]
+- !private ["So14NSSecureCodingP", "httpMethod"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "setValue"]
+- !private ["So5NSURLC", "init"]
+- !private ["So12NSURLRequestC", "httpBody"]
+- !private ["So12NSURLRequestC", "httpMethod"]
+- !private ["So12NSURLRequestC", "init"]
+- !private ["So12NSURLRequestC", "setValue"]
+- !private ["So19NSProgressReportingP", "resume"]
+- !private ["SY", "init"]
+- !private ["ST", "init"]
+- !private ["So12NSURLSessionC", "dataTask"]
+- !private ["So12NSURLSessionC", "shared"]
+- !private ["So20NSURLSessionDataTaskC", "resume"]
+- !private ["So16NSURLSessionTaskC", "resume"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "httpBody"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "httpMethod"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "setValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "APIManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSON"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONSerialization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSMutableURLRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLSession"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "baseURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "httpBody"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "httpMethod"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startEndpoint"]
+depends-nominal:
+- "7coreML210APIManagerC"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "10SwiftyJSON0B0V"
+- !private "So19NSJSONSerializationC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So19NSMutableURLRequestC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So5NSURLC"
+- !private "So12NSURLRequestC"
+- !private "So19NSProgressReportingP"
+- !private "SY"
+- !private "ST"
+- !private "So12NSURLSessionC"
+- !private "So20NSURLSessionDataTaskC"
+- !private "So16NSURLSessionTaskC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Vision.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSS3/AWSS3.framework/Headers/AWSS3.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDB.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSS3/AWSS3.framework/Headers/AWSS3PreSignedURL.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSGZIP.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTS.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDLog+LOGV.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSS3/AWSS3.framework/Headers/AWSS3-umbrella.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCore-umbrella.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSRekognition/AWSRekognition.framework/Headers/AWSRekognition-umbrella.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCognito/AWSCognito.framework/Headers/AWSCognito-umbrella.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSGeneric.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCognito/AWSCognito.framework/Headers/AWSCognitoRecord.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSS3/AWSS3.framework/Headers/AWSS3Service.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTSService.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSService.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCognito/AWSCognito.framework/Headers/AWSCognitoSyncService.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSRekognition/AWSRekognition.framework/Headers/AWSRekognitionService.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCognito/AWSCognito.framework/Headers/AWSCognitoService.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityService.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCancellationTokenSource.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTaskCompletionSource.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMCache.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMDiskCache.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMMemoryCache.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMantle.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCore.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSUICKeyChainStore.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSignature.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDASLLogCapture.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabase.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabaseQueue.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLModel+NSCoding.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSLogging.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSNetworking.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDLog.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCocoaLumberjack.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTask.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSS3/AWSS3.framework/Headers/AWSS3Model.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLModel.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTSModel.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSModel.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCognito/AWSCognito.framework/Headers/AWSCognitoSyncModel.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSRekognition/AWSRekognition.framework/Headers/AWSRekognitionModel.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityModel.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabasePool.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSServiceEnum.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCancellationToken.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSValidation.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCancellationTokenRegistration.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSerialization.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLResponseSerialization.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLRequestSerialization.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLReflection.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSRekognition/AWSRekognition.framework/Headers/AWSRekognition.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSError+AWSMTLModelException.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSInfo.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCognito/AWSCognito.framework/Headers/AWSCognito.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCredentialsProvider.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSIdentityProvider.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMCacheBackgroundTaskManager.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLSessionManager.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSS3/AWSS3.framework/Headers/AWSS3TransferManager.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDASLLogger.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDOSLogger.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDTTYLogger.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDFileLogger.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDAbstractDatabaseLogger.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSS3/AWSS3.framework/Headers/AWSS3RequestRetryHandler.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLRequestRetryHandler.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLValueTransformer.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSS3/AWSS3.framework/Headers/AWSS3TransferUtilityDatabaseHelper.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSS3/AWSS3.framework/Headers/AWSS3TransferUtility+HeaderHelper.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLJSONAdapter.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLManagedObjectAdapter.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDDispatchQueueLogFormatter.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDContextFilterLogFormatter.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDMultiFormatter.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSS3/AWSS3.framework/Headers/AWSS3Serializer.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSExecutor.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSS3/AWSS3.framework/Headers/AWSS3Resources.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTSResources.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCognito/AWSCognito.framework/Headers/AWSCognitoSyncResources.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSRekognition/AWSRekognition.framework/Headers/AWSRekognitionResources.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityResources.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSS3/AWSS3.framework/Headers/AWSS3TransferUtilityTasks.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabaseAdditions.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDLogMacros.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDAssertMacros.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDLegacyMacros.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCognito/AWSCognito.framework/Headers/AWSCognitoHandlers.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSBolts.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCognito/AWSCognito.framework/Headers/AWSCognitoConflict.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMResultSet.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCognito/AWSCognito.framework/Headers/AWSCognitoDataset.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSClientContext.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSynchronizedMutableDictionary.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCategory.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSKSReachability.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSS3/AWSS3.framework/Headers/AWSS3TransferUtility.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentity.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSS3/AWSS3.framework/Modules/module.modulemap"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Modules/module.modulemap"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSRekognition/AWSRekognition.framework/Modules/module.modulemap"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphoneos/AWSCognito/AWSCognito.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreML.framework/Headers/CoreML.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Vision.framework/Headers/Vision.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5d6d91176118386c4b49c48ff213d612"

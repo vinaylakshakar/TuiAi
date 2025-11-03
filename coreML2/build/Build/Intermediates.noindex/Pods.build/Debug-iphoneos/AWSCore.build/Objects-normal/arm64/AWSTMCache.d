@@ -1,0 +1,7 @@
+dependencies: \
+  /Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/Pods/AWSCore/AWSCore/TMCache/AWSTMCache.m \
+  /Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AWSCore.build/module.modulemap \
+  /Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/Pods/Target\ Support\ Files/AWSCore/AWSCore-prefix.pch \
+  /Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/Pods/AWSCore/AWSCore/TMCache/AWSTMCache.h \
+  /Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/Pods/AWSCore/AWSCore/TMCache/AWSTMDiskCache.h \
+  /Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/Pods/AWSCore/AWSCore/TMCache/AWSTMMemoryCache.h

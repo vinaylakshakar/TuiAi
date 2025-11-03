@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "d6e858951677d0bb208058b26e4542d0"
+build_time: [1560323250, 979572000]
+inputs:
+  "/Users/silstone/Desktop/coreML2/Pods/SwiftyJSON/Source/SwiftyJSON/SwiftyJSON.swift": [1560323144, 1360199]

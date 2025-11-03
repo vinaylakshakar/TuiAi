@@ -1,0 +1,1048 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CameraViewController"
+provides-nominal:
+- "7coreML220CameraViewControllerC"
+provides-member:
+- ["7coreML220CameraViewControllerC", ""]
+provides-dynamic-lookup:
+- "touchesBegan"
+- "touchesMoved"
+- "viewDidLoad"
+depends-top-level:
+- !private "!="
+- !private "/"
+- !private "=="
+- "AVCaptureDevice"
+- !private "AVCaptureDeviceInput"
+- "AVCaptureSession"
+- "AVCaptureVideoPreviewLayer"
+- !private "AVMediaType"
+- "AssignmentPrecedence"
+- "CameraViewController"
+- "CastingPrecedence"
+- "Float"
+- !private "NSError"
+- "Set"
+- !private "String"
+- "UIEvent"
+- "UIScreen"
+- "UITouch"
+- "UIViewController"
+- !private "print"
+depends-member:
+- !private ["So15AVCaptureDeviceC", "Position"]
+- !private ["So15AVCaptureDeviceC", "devices"]
+- !private ["So15AVCaptureDeviceC", "focusMode"]
+- !private ["So15AVCaptureDeviceC", "hasMediaType"]
+- !private ["So15AVCaptureDeviceC", "isLockingFocusWithCustomLensPositionSupported"]
+- !private ["So15AVCaptureDeviceC", "lockForConfiguration"]
+- !private ["So15AVCaptureDeviceC", "position"]
+- !private ["So15AVCaptureDeviceC", "unlockForConfiguration"]
+- !private ["So20AVCaptureDeviceInputC", "init"]
+- !private ["So14AVCaptureInputC", "init"]
+- !private ["So16AVCaptureSessionC", "Preset"]
+- !private ["So16AVCaptureSessionC", "addInput"]
+- ["So16AVCaptureSessionC", "init"]
+- !private ["So16AVCaptureSessionC", "sessionPreset"]
+- !private ["So16AVCaptureSessionC", "startRunning"]
+- !private ["So26AVCaptureVideoPreviewLayerC", "frame"]
+- !private ["So26AVCaptureVideoPreviewLayerC", "init"]
+- !private ["So11AVMediaTypea", "video"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["SK", "init"]
+- !private ["SB", "init"]
+- !private ["So7CALayerC", "addSublayer"]
+- !private ["So7CALayerC", "frame"]
+- !private ["So7CALayerC", "init"]
+- !private ["So15CALayerDelegateP", "layer"]
+- !private ["So13CAMediaTimingP", "addSublayer"]
+- !private ["So13CAMediaTimingP", "frame"]
+- !private ["So13CAMediaTimingP", "init"]
+- !private ["So7CGPointV", "x"]
+- ["So6CGRectV", "size"]
+- ["So6CGSizeV", "width"]
+- !private ["s7CVarArgP", "AVCaptureDevice"]
+- !private ["s7CVarArgP", "AVCaptureDeviceInput"]
+- ["s7CVarArgP", "AVCaptureSession"]
+- !private ["s7CVarArgP", "AVCaptureVideoPreviewLayer"]
+- !private ["s7CVarArgP", "AVMediaType"]
+- !private ["s7CVarArgP", "Float"]
+- !private ["s7CVarArgP", "Position"]
+- !private ["s7CVarArgP", "Preset"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", "UIScreen"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addInput"]
+- !private ["s7CVarArgP", "addSublayer"]
+- !private ["s7CVarArgP", "beginSession"]
+- ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "captureDevice"]
+- !private ["s7CVarArgP", "captureSession"]
+- !private ["s7CVarArgP", "configureDevice"]
+- !private ["s7CVarArgP", "devices"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "focusMode"]
+- !private ["s7CVarArgP", "focusTo"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "hasMediaType"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isLockingFocusWithCustomLensPositionSupported"]
+- !private ["s7CVarArgP", "layer"]
+- !private ["s7CVarArgP", "localizedDescription"]
+- !private ["s7CVarArgP", "location"]
+- !private ["s7CVarArgP", "lockForConfiguration"]
+- ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "position"]
+- !private ["s7CVarArgP", "previewLayer"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "screenWidth"]
+- !private ["s7CVarArgP", "sessionPreset"]
+- !private ["s7CVarArgP", "startRunning"]
+- !private ["s7CVarArgP", "unlockForConfiguration"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["7coreML220CameraViewControllerC", "AVCaptureDevice"]
+- !private ["7coreML220CameraViewControllerC", "AVCaptureDeviceInput"]
+- ["7coreML220CameraViewControllerC", "AVCaptureSession"]
+- ["7coreML220CameraViewControllerC", "AVCaptureVideoPreviewLayer"]
+- !private ["7coreML220CameraViewControllerC", "AVMediaType"]
+- ["7coreML220CameraViewControllerC", "Float"]
+- !private ["7coreML220CameraViewControllerC", "NSError"]
+- ["7coreML220CameraViewControllerC", "Set"]
+- !private ["7coreML220CameraViewControllerC", "String"]
+- ["7coreML220CameraViewControllerC", "UIEvent"]
+- ["7coreML220CameraViewControllerC", "UIScreen"]
+- ["7coreML220CameraViewControllerC", "UITouch"]
+- ["7coreML220CameraViewControllerC", "beginSession"]
+- ["7coreML220CameraViewControllerC", "captureDevice"]
+- ["7coreML220CameraViewControllerC", "captureSession"]
+- ["7coreML220CameraViewControllerC", "configureDevice"]
+- ["7coreML220CameraViewControllerC", "deinit"]
+- ["7coreML220CameraViewControllerC", "focusTo"]
+- ["7coreML220CameraViewControllerC", "init"]
+- ["7coreML220CameraViewControllerC", "previewLayer"]
+- !private ["7coreML220CameraViewControllerC", "print"]
+- ["7coreML220CameraViewControllerC", "screenWidth"]
+- ["7coreML220CameraViewControllerC", "touchesBegan"]
+- ["7coreML220CameraViewControllerC", "touchesMoved"]
+- !private ["7coreML220CameraViewControllerC", "view"]
+- ["7coreML220CameraViewControllerC", "viewDidLoad"]
+- !private ["Sl", "first"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "AVCaptureDevice"]
+- !private ["s28CustomDebugStringConvertibleP", "AVCaptureDeviceInput"]
+- ["s28CustomDebugStringConvertibleP", "AVCaptureSession"]
+- !private ["s28CustomDebugStringConvertibleP", "AVCaptureVideoPreviewLayer"]
+- !private ["s28CustomDebugStringConvertibleP", "AVMediaType"]
+- !private ["s28CustomDebugStringConvertibleP", "Float"]
+- !private ["s28CustomDebugStringConvertibleP", "Position"]
+- !private ["s28CustomDebugStringConvertibleP", "Preset"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", "UIScreen"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addInput"]
+- !private ["s28CustomDebugStringConvertibleP", "addSublayer"]
+- !private ["s28CustomDebugStringConvertibleP", "beginSession"]
+- ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "captureDevice"]
+- !private ["s28CustomDebugStringConvertibleP", "captureSession"]
+- !private ["s28CustomDebugStringConvertibleP", "configureDevice"]
+- !private ["s28CustomDebugStringConvertibleP", "devices"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "focusMode"]
+- !private ["s28CustomDebugStringConvertibleP", "focusTo"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "hasMediaType"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isLockingFocusWithCustomLensPositionSupported"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "localizedDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "location"]
+- !private ["s28CustomDebugStringConvertibleP", "lockForConfiguration"]
+- ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "position"]
+- !private ["s28CustomDebugStringConvertibleP", "previewLayer"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "screenWidth"]
+- !private ["s28CustomDebugStringConvertibleP", "sessionPreset"]
+- ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "startRunning"]
+- !private ["s28CustomDebugStringConvertibleP", "unlockForConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "layer"]
+- ["s17CustomReflectableP", "size"]
+- ["s17CustomReflectableP", "width"]
+- !private ["s17CustomReflectableP", "x"]
+- !private ["s23CustomStringConvertibleP", "AVCaptureDevice"]
+- !private ["s23CustomStringConvertibleP", "AVCaptureDeviceInput"]
+- ["s23CustomStringConvertibleP", "AVCaptureSession"]
+- !private ["s23CustomStringConvertibleP", "AVCaptureVideoPreviewLayer"]
+- !private ["s23CustomStringConvertibleP", "AVMediaType"]
+- !private ["s23CustomStringConvertibleP", "Float"]
+- !private ["s23CustomStringConvertibleP", "Position"]
+- !private ["s23CustomStringConvertibleP", "Preset"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", "UIScreen"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addInput"]
+- !private ["s23CustomStringConvertibleP", "addSublayer"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "beginSession"]
+- ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "captureDevice"]
+- !private ["s23CustomStringConvertibleP", "captureSession"]
+- !private ["s23CustomStringConvertibleP", "configureDevice"]
+- !private ["s23CustomStringConvertibleP", "devices"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "focusMode"]
+- !private ["s23CustomStringConvertibleP", "focusTo"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "hasMediaType"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isLockingFocusWithCustomLensPositionSupported"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- !private ["s23CustomStringConvertibleP", "localizedDescription"]
+- !private ["s23CustomStringConvertibleP", "location"]
+- !private ["s23CustomStringConvertibleP", "lockForConfiguration"]
+- ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "position"]
+- !private ["s23CustomStringConvertibleP", "previewLayer"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "screenWidth"]
+- !private ["s23CustomStringConvertibleP", "sessionPreset"]
+- !private ["s23CustomStringConvertibleP", "startRunning"]
+- !private ["s23CustomStringConvertibleP", "unlockForConfiguration"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "first"]
+- !private ["Se", "init"]
+- !private ["Se", "layer"]
+- ["Se", "size"]
+- ["Se", "width"]
+- !private ["Se", "x"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "first"]
+- !private ["SE", "init"]
+- !private ["SE", "layer"]
+- ["SE", "size"]
+- ["SE", "width"]
+- !private ["SE", "x"]
+- !private ["SQ", "AVCaptureDevice"]
+- !private ["SQ", "AVCaptureDeviceInput"]
+- ["SQ", "AVCaptureSession"]
+- !private ["SQ", "AVCaptureVideoPreviewLayer"]
+- !private ["SQ", "AVMediaType"]
+- !private ["SQ", "Float"]
+- !private ["SQ", "Position"]
+- !private ["SQ", "Preset"]
+- !private ["SQ", "String"]
+- ["SQ", "UIScreen"]
+- ["SQ", ""]
+- !private ["SQ", "addInput"]
+- !private ["SQ", "addSublayer"]
+- !private ["SQ", "back"]
+- !private ["SQ", "beginSession"]
+- ["SQ", "bounds"]
+- !private ["SQ", "captureDevice"]
+- !private ["SQ", "captureSession"]
+- !private ["SQ", "configureDevice"]
+- !private ["SQ", "devices"]
+- !private ["SQ", "first"]
+- !private ["SQ", "focusMode"]
+- !private ["SQ", "focusTo"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "hasMediaType"]
+- !private ["SQ", "high"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isLockingFocusWithCustomLensPositionSupported"]
+- !private ["SQ", "layer"]
+- !private ["SQ", "localizedDescription"]
+- !private ["SQ", "location"]
+- !private ["SQ", "lockForConfiguration"]
+- !private ["SQ", "locked"]
+- ["SQ", "main"]
+- !private ["SQ", "position"]
+- !private ["SQ", "previewLayer"]
+- !private ["SQ", "print"]
+- !private ["SQ", "screenWidth"]
+- !private ["SQ", "sessionPreset"]
+- ["SQ", "size"]
+- !private ["SQ", "startRunning"]
+- !private ["SQ", "unlockForConfiguration"]
+- !private ["SQ", "video"]
+- !private ["SQ", "view"]
+- !private ["SQ", "viewDidLoad"]
+- ["SQ", "width"]
+- !private ["SQ", "x"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "layer"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["Sf", "init"]
+- !private ["SF", "init"]
+- !private ["So18AVCaptureFocusModeV", "locked"]
+- !private ["SH", "AVCaptureDevice"]
+- !private ["SH", "AVCaptureDeviceInput"]
+- ["SH", "AVCaptureSession"]
+- !private ["SH", "AVCaptureVideoPreviewLayer"]
+- !private ["SH", "AVMediaType"]
+- !private ["SH", "Float"]
+- !private ["SH", "Position"]
+- !private ["SH", "Preset"]
+- !private ["SH", "String"]
+- ["SH", "UIScreen"]
+- ["SH", ""]
+- !private ["SH", "addInput"]
+- !private ["SH", "addSublayer"]
+- !private ["SH", "back"]
+- !private ["SH", "beginSession"]
+- ["SH", "bounds"]
+- !private ["SH", "captureDevice"]
+- !private ["SH", "captureSession"]
+- !private ["SH", "configureDevice"]
+- !private ["SH", "devices"]
+- !private ["SH", "first"]
+- !private ["SH", "focusMode"]
+- !private ["SH", "focusTo"]
+- !private ["SH", "frame"]
+- !private ["SH", "hasMediaType"]
+- !private ["SH", "high"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "isLockingFocusWithCustomLensPositionSupported"]
+- !private ["SH", "layer"]
+- !private ["SH", "localizedDescription"]
+- !private ["SH", "location"]
+- !private ["SH", "lockForConfiguration"]
+- !private ["SH", "locked"]
+- ["SH", "main"]
+- !private ["SH", "position"]
+- !private ["SH", "previewLayer"]
+- !private ["SH", "print"]
+- !private ["SH", "screenWidth"]
+- !private ["SH", "sessionPreset"]
+- !private ["SH", "startRunning"]
+- !private ["SH", "unlockForConfiguration"]
+- !private ["SH", "video"]
+- !private ["SH", "view"]
+- !private ["SH", "viewDidLoad"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "AVCaptureDevice"]
+- !private ["So8NSCodingP", "AVCaptureDeviceInput"]
+- ["So8NSCodingP", "AVCaptureSession"]
+- !private ["So8NSCodingP", "AVCaptureVideoPreviewLayer"]
+- !private ["So8NSCodingP", "AVMediaType"]
+- !private ["So8NSCodingP", "Float"]
+- !private ["So8NSCodingP", "String"]
+- ["So8NSCodingP", "UIScreen"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addSublayer"]
+- !private ["So8NSCodingP", "beginSession"]
+- !private ["So8NSCodingP", "captureDevice"]
+- !private ["So8NSCodingP", "captureSession"]
+- !private ["So8NSCodingP", "configureDevice"]
+- !private ["So8NSCodingP", "focusTo"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "layer"]
+- !private ["So8NSCodingP", "localizedDescription"]
+- !private ["So8NSCodingP", "previewLayer"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "screenWidth"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So9NSCopyingP", "localizedDescription"]
+- !private ["So7NSErrorC", "localizedDescription"]
+- !private ["So26NSExtensionRequestHandlingP", "AVCaptureDevice"]
+- !private ["So26NSExtensionRequestHandlingP", "AVCaptureDeviceInput"]
+- ["So26NSExtensionRequestHandlingP", "AVCaptureSession"]
+- !private ["So26NSExtensionRequestHandlingP", "AVCaptureVideoPreviewLayer"]
+- !private ["So26NSExtensionRequestHandlingP", "AVMediaType"]
+- !private ["So26NSExtensionRequestHandlingP", "Float"]
+- !private ["So26NSExtensionRequestHandlingP", "String"]
+- ["So26NSExtensionRequestHandlingP", "UIScreen"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "beginSession"]
+- !private ["So26NSExtensionRequestHandlingP", "captureDevice"]
+- !private ["So26NSExtensionRequestHandlingP", "captureSession"]
+- !private ["So26NSExtensionRequestHandlingP", "configureDevice"]
+- !private ["So26NSExtensionRequestHandlingP", "focusTo"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "previewLayer"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "screenWidth"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "AVCaptureDevice"]
+- !private ["So8NSObjectC", "AVCaptureDeviceInput"]
+- ["So8NSObjectC", "AVCaptureSession"]
+- ["So8NSObjectC", "AVCaptureVideoPreviewLayer"]
+- !private ["So8NSObjectC", "AVMediaType"]
+- ["So8NSObjectC", "Float"]
+- !private ["So8NSObjectC", "NSError"]
+- !private ["So8NSObjectC", "Position"]
+- !private ["So8NSObjectC", "Preset"]
+- ["So8NSObjectC", "Set"]
+- !private ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIEvent"]
+- ["So8NSObjectC", "UIScreen"]
+- ["So8NSObjectC", "UITouch"]
+- !private ["So8NSObjectC", "addInput"]
+- !private ["So8NSObjectC", "addSublayer"]
+- ["So8NSObjectC", "beginSession"]
+- ["So8NSObjectC", "bounds"]
+- ["So8NSObjectC", "captureDevice"]
+- ["So8NSObjectC", "captureSession"]
+- ["So8NSObjectC", "configureDevice"]
+- !private ["So8NSObjectC", "devices"]
+- !private ["So8NSObjectC", "focusMode"]
+- ["So8NSObjectC", "focusTo"]
+- !private ["So8NSObjectC", "frame"]
+- !private ["So8NSObjectC", "hasMediaType"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isLockingFocusWithCustomLensPositionSupported"]
+- !private ["So8NSObjectC", "layer"]
+- !private ["So8NSObjectC", "localizedDescription"]
+- !private ["So8NSObjectC", "location"]
+- !private ["So8NSObjectC", "lockForConfiguration"]
+- ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "position"]
+- ["So8NSObjectC", "previewLayer"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "screenWidth"]
+- !private ["So8NSObjectC", "sessionPreset"]
+- !private ["So8NSObjectC", "startRunning"]
+- ["So8NSObjectC", "touchesBegan"]
+- ["So8NSObjectC", "touchesMoved"]
+- !private ["So8NSObjectC", "unlockForConfiguration"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "AVCaptureDevice"]
+- !private ["So8NSObjectP", "AVCaptureDeviceInput"]
+- ["So8NSObjectP", "AVCaptureSession"]
+- !private ["So8NSObjectP", "AVCaptureVideoPreviewLayer"]
+- !private ["So8NSObjectP", "AVMediaType"]
+- !private ["So8NSObjectP", "Float"]
+- !private ["So8NSObjectP", "Position"]
+- !private ["So8NSObjectP", "Preset"]
+- !private ["So8NSObjectP", "String"]
+- ["So8NSObjectP", "UIScreen"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addInput"]
+- !private ["So8NSObjectP", "addSublayer"]
+- !private ["So8NSObjectP", "beginSession"]
+- ["So8NSObjectP", "bounds"]
+- !private ["So8NSObjectP", "captureDevice"]
+- !private ["So8NSObjectP", "captureSession"]
+- !private ["So8NSObjectP", "configureDevice"]
+- !private ["So8NSObjectP", "devices"]
+- !private ["So8NSObjectP", "focusMode"]
+- !private ["So8NSObjectP", "focusTo"]
+- !private ["So8NSObjectP", "frame"]
+- !private ["So8NSObjectP", "hasMediaType"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isLockingFocusWithCustomLensPositionSupported"]
+- !private ["So8NSObjectP", "layer"]
+- !private ["So8NSObjectP", "localizedDescription"]
+- !private ["So8NSObjectP", "location"]
+- !private ["So8NSObjectP", "lockForConfiguration"]
+- ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "position"]
+- !private ["So8NSObjectP", "previewLayer"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "screenWidth"]
+- !private ["So8NSObjectP", "sessionPreset"]
+- !private ["So8NSObjectP", "startRunning"]
+- !private ["So8NSObjectP", "unlockForConfiguration"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So14NSSecureCodingP", "addSublayer"]
+- !private ["So14NSSecureCodingP", "frame"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "localizedDescription"]
+- !private ["Sj", "init"]
+- !private ["Sq", "layer"]
+- !private ["So23AVCaptureDevicePositionV", "back"]
+- !private ["So22AVCaptureSessionPreseta", "high"]
+- !private ["Sm", "init"]
+- !private ["SY", "back"]
+- !private ["SY", "high"]
+- !private ["SY", "locked"]
+- !private ["SY", "video"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "first"]
+- !private ["ST", "init"]
+- !private ["Sh", "first"]
+- !private ["s10SetAlgebraP", "first"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- !private ["So12UIAppearanceP", "layer"]
+- !private ["So21UIAppearanceContainerP", "AVCaptureDevice"]
+- !private ["So21UIAppearanceContainerP", "AVCaptureDeviceInput"]
+- ["So21UIAppearanceContainerP", "AVCaptureSession"]
+- !private ["So21UIAppearanceContainerP", "AVCaptureVideoPreviewLayer"]
+- !private ["So21UIAppearanceContainerP", "AVMediaType"]
+- !private ["So21UIAppearanceContainerP", "Float"]
+- !private ["So21UIAppearanceContainerP", "String"]
+- ["So21UIAppearanceContainerP", "UIScreen"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "beginSession"]
+- !private ["So21UIAppearanceContainerP", "captureDevice"]
+- !private ["So21UIAppearanceContainerP", "captureSession"]
+- !private ["So21UIAppearanceContainerP", "configureDevice"]
+- !private ["So21UIAppearanceContainerP", "focusTo"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "layer"]
+- !private ["So21UIAppearanceContainerP", "previewLayer"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "screenWidth"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "AVCaptureDevice"]
+- !private ["So18UIContentContainerP", "AVCaptureDeviceInput"]
+- ["So18UIContentContainerP", "AVCaptureSession"]
+- !private ["So18UIContentContainerP", "AVCaptureVideoPreviewLayer"]
+- !private ["So18UIContentContainerP", "AVMediaType"]
+- !private ["So18UIContentContainerP", "Float"]
+- !private ["So18UIContentContainerP", "String"]
+- ["So18UIContentContainerP", "UIScreen"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "beginSession"]
+- !private ["So18UIContentContainerP", "captureDevice"]
+- !private ["So18UIContentContainerP", "captureSession"]
+- !private ["So18UIContentContainerP", "configureDevice"]
+- !private ["So18UIContentContainerP", "focusTo"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "previewLayer"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "screenWidth"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- !private ["So13UIDynamicItemP", "layer"]
+- !private ["So18UIFocusEnvironmentP", "AVCaptureDevice"]
+- !private ["So18UIFocusEnvironmentP", "AVCaptureDeviceInput"]
+- ["So18UIFocusEnvironmentP", "AVCaptureSession"]
+- !private ["So18UIFocusEnvironmentP", "AVCaptureVideoPreviewLayer"]
+- !private ["So18UIFocusEnvironmentP", "AVMediaType"]
+- !private ["So18UIFocusEnvironmentP", "Float"]
+- !private ["So18UIFocusEnvironmentP", "String"]
+- ["So18UIFocusEnvironmentP", "UIScreen"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "beginSession"]
+- !private ["So18UIFocusEnvironmentP", "captureDevice"]
+- !private ["So18UIFocusEnvironmentP", "captureSession"]
+- !private ["So18UIFocusEnvironmentP", "configureDevice"]
+- !private ["So18UIFocusEnvironmentP", "focusTo"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "layer"]
+- !private ["So18UIFocusEnvironmentP", "previewLayer"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "screenWidth"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "layer"]
+- !private ["So20UIFocusItemContainerP", "layer"]
+- !private ["So30UIPasteConfigurationSupportingP", "AVCaptureDevice"]
+- !private ["So30UIPasteConfigurationSupportingP", "AVCaptureDeviceInput"]
+- ["So30UIPasteConfigurationSupportingP", "AVCaptureSession"]
+- !private ["So30UIPasteConfigurationSupportingP", "AVCaptureVideoPreviewLayer"]
+- !private ["So30UIPasteConfigurationSupportingP", "AVMediaType"]
+- !private ["So30UIPasteConfigurationSupportingP", "Float"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- ["So30UIPasteConfigurationSupportingP", "UIScreen"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "beginSession"]
+- !private ["So30UIPasteConfigurationSupportingP", "captureDevice"]
+- !private ["So30UIPasteConfigurationSupportingP", "captureSession"]
+- !private ["So30UIPasteConfigurationSupportingP", "configureDevice"]
+- !private ["So30UIPasteConfigurationSupportingP", "focusTo"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- !private ["So30UIPasteConfigurationSupportingP", "previewLayer"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "screenWidth"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "AVCaptureDevice"]
+- !private ["So11UIResponderC", "AVCaptureDeviceInput"]
+- ["So11UIResponderC", "AVCaptureSession"]
+- ["So11UIResponderC", "AVCaptureVideoPreviewLayer"]
+- !private ["So11UIResponderC", "AVMediaType"]
+- ["So11UIResponderC", "Float"]
+- !private ["So11UIResponderC", "NSError"]
+- ["So11UIResponderC", "Set"]
+- !private ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UIEvent"]
+- ["So11UIResponderC", "UIScreen"]
+- ["So11UIResponderC", "UITouch"]
+- ["So11UIResponderC", "beginSession"]
+- ["So11UIResponderC", "captureDevice"]
+- ["So11UIResponderC", "captureSession"]
+- ["So11UIResponderC", "configureDevice"]
+- ["So11UIResponderC", "focusTo"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "layer"]
+- ["So11UIResponderC", "previewLayer"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "screenWidth"]
+- ["So11UIResponderC", "touchesBegan"]
+- ["So11UIResponderC", "touchesMoved"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "AVCaptureDevice"]
+- !private ["So30UIResponderStandardEditActionsP", "AVCaptureDeviceInput"]
+- ["So30UIResponderStandardEditActionsP", "AVCaptureSession"]
+- !private ["So30UIResponderStandardEditActionsP", "AVCaptureVideoPreviewLayer"]
+- !private ["So30UIResponderStandardEditActionsP", "AVMediaType"]
+- !private ["So30UIResponderStandardEditActionsP", "Float"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- ["So30UIResponderStandardEditActionsP", "UIScreen"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "beginSession"]
+- !private ["So30UIResponderStandardEditActionsP", "captureDevice"]
+- !private ["So30UIResponderStandardEditActionsP", "captureSession"]
+- !private ["So30UIResponderStandardEditActionsP", "configureDevice"]
+- !private ["So30UIResponderStandardEditActionsP", "focusTo"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
+- !private ["So30UIResponderStandardEditActionsP", "previewLayer"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "screenWidth"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So8UIScreenC", "bounds"]
+- ["So8UIScreenC", "main"]
+- !private ["So16UIStateRestoringP", "AVCaptureDevice"]
+- !private ["So16UIStateRestoringP", "AVCaptureDeviceInput"]
+- ["So16UIStateRestoringP", "AVCaptureSession"]
+- !private ["So16UIStateRestoringP", "AVCaptureVideoPreviewLayer"]
+- !private ["So16UIStateRestoringP", "AVMediaType"]
+- !private ["So16UIStateRestoringP", "Float"]
+- !private ["So16UIStateRestoringP", "String"]
+- ["So16UIStateRestoringP", "UIScreen"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "beginSession"]
+- !private ["So16UIStateRestoringP", "captureDevice"]
+- !private ["So16UIStateRestoringP", "captureSession"]
+- !private ["So16UIStateRestoringP", "configureDevice"]
+- !private ["So16UIStateRestoringP", "focusTo"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "previewLayer"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "screenWidth"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So7UITouchC", "location"]
+- !private ["So18UITraitEnvironmentP", "AVCaptureDevice"]
+- !private ["So18UITraitEnvironmentP", "AVCaptureDeviceInput"]
+- ["So18UITraitEnvironmentP", "AVCaptureSession"]
+- !private ["So18UITraitEnvironmentP", "AVCaptureVideoPreviewLayer"]
+- !private ["So18UITraitEnvironmentP", "AVMediaType"]
+- !private ["So18UITraitEnvironmentP", "Float"]
+- !private ["So18UITraitEnvironmentP", "String"]
+- ["So18UITraitEnvironmentP", "UIScreen"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "beginSession"]
+- ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "captureDevice"]
+- !private ["So18UITraitEnvironmentP", "captureSession"]
+- !private ["So18UITraitEnvironmentP", "configureDevice"]
+- !private ["So18UITraitEnvironmentP", "focusTo"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "layer"]
+- ["So18UITraitEnvironmentP", "main"]
+- !private ["So18UITraitEnvironmentP", "previewLayer"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "screenWidth"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "AVCaptureDevice"]
+- !private ["So23UIUserActivityRestoringP", "AVCaptureDeviceInput"]
+- ["So23UIUserActivityRestoringP", "AVCaptureSession"]
+- !private ["So23UIUserActivityRestoringP", "AVCaptureVideoPreviewLayer"]
+- !private ["So23UIUserActivityRestoringP", "AVMediaType"]
+- !private ["So23UIUserActivityRestoringP", "Float"]
+- !private ["So23UIUserActivityRestoringP", "String"]
+- ["So23UIUserActivityRestoringP", "UIScreen"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "beginSession"]
+- !private ["So23UIUserActivityRestoringP", "captureDevice"]
+- !private ["So23UIUserActivityRestoringP", "captureSession"]
+- !private ["So23UIUserActivityRestoringP", "configureDevice"]
+- !private ["So23UIUserActivityRestoringP", "focusTo"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "layer"]
+- !private ["So23UIUserActivityRestoringP", "previewLayer"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- !private ["So23UIUserActivityRestoringP", "screenWidth"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "layer"]
+- ["So16UIViewControllerC", "AVCaptureDevice"]
+- !private ["So16UIViewControllerC", "AVCaptureDeviceInput"]
+- ["So16UIViewControllerC", "AVCaptureSession"]
+- ["So16UIViewControllerC", "AVCaptureVideoPreviewLayer"]
+- !private ["So16UIViewControllerC", "AVMediaType"]
+- ["So16UIViewControllerC", "Float"]
+- !private ["So16UIViewControllerC", "NSError"]
+- ["So16UIViewControllerC", "Set"]
+- !private ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UIEvent"]
+- ["So16UIViewControllerC", "UIScreen"]
+- ["So16UIViewControllerC", "UITouch"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "beginSession"]
+- ["So16UIViewControllerC", "captureDevice"]
+- ["So16UIViewControllerC", "captureSession"]
+- ["So16UIViewControllerC", "configureDevice"]
+- ["So16UIViewControllerC", "focusTo"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "previewLayer"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "screenWidth"]
+- ["So16UIViewControllerC", "touchesBegan"]
+- ["So16UIViewControllerC", "touchesMoved"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s30_CustomPlaygroundQuickLookableP", "size"]
+- ["s30_CustomPlaygroundQuickLookableP", "width"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "x"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "high"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "video"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVCaptureDevice"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVCaptureDeviceInput"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AVCaptureSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVCaptureVideoPreviewLayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVMediaType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Float"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Position"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Preset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIScreen"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addInput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSublayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "beginSession"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "captureDevice"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "captureSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "configureDevice"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "devices"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "focusMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "focusTo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasMediaType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isLockingFocusWithCustomLensPositionSupported"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "localizedDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "location"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lockForConfiguration"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "position"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "previewLayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "screenWidth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sessionPreset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startRunning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unlockForConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "high"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "layer"]
+- ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "video"]
+- ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s21_ObjectiveCBridgeableP", "x"]
+- !private ["s20_SwiftNewtypeWrapperP", "high"]
+- !private ["s20_SwiftNewtypeWrapperP", "video"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "layer"]
+depends-nominal:
+- !private "So15AVCaptureDeviceC"
+- !private "So20AVCaptureDeviceInputC"
+- !private "So14AVCaptureInputC"
+- "So16AVCaptureSessionC"
+- !private "So26AVCaptureVideoPreviewLayerC"
+- !private "So11AVMediaTypea"
+- !private "s18AdditiveArithmeticP"
+- !private "SK"
+- !private "SB"
+- !private "So7CALayerC"
+- !private "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- !private "So7CGPointV"
+- "So6CGRectV"
+- "So6CGSizeV"
+- "s7CVarArgP"
+- "7coreML220CameraViewControllerC"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "Sf"
+- !private "SF"
+- !private "So18AVCaptureFocusModeV"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So7NSErrorC"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sj"
+- !private "Sq"
+- !private "So23AVCaptureDevicePositionV"
+- !private "So22AVCaptureSessionPreseta"
+- !private "Sm"
+- !private "SY"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "Sh"
+- !private "s10SetAlgebraP"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So8UIScreenC"
+- "So16UIStateRestoringP"
+- !private "So7UITouchC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Vision.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSS3/AWSS3.framework/Headers/AWSS3.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSFMDB.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSS3/AWSS3.framework/Headers/AWSS3PreSignedURL.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSGZIP.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSSTS.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDLog+LOGV.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSS3/AWSS3.framework/Headers/AWSS3-umbrella.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCore-umbrella.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSGeneric.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSS3/AWSS3.framework/Headers/AWSS3Service.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSSTSService.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSService.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityService.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCancellationTokenSource.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSTaskCompletionSource.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSTMCache.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSTMDiskCache.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSTMMemoryCache.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSMantle.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCore.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSUICKeyChainStore.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSSignature.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDASLLogCapture.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSFMDatabase.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSFMDatabaseQueue.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSMTLModel+NSCoding.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSLogging.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSNetworking.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDLog.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCocoaLumberjack.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSTask.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSS3/AWSS3.framework/Headers/AWSS3Model.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSMTLModel.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSSTSModel.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSModel.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityModel.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSFMDatabasePool.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSServiceEnum.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCancellationToken.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSValidation.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCancellationTokenRegistration.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSSerialization.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSURLResponseSerialization.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSURLRequestSerialization.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSMTLReflection.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/NSError+AWSMTLModelException.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSInfo.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCredentialsProvider.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSIdentityProvider.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSTMCacheBackgroundTaskManager.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSURLSessionManager.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSS3/AWSS3.framework/Headers/AWSS3TransferManager.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDASLLogger.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDOSLogger.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDTTYLogger.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDFileLogger.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDAbstractDatabaseLogger.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSS3/AWSS3.framework/Headers/AWSS3RequestRetryHandler.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSURLRequestRetryHandler.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSMTLValueTransformer.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSS3/AWSS3.framework/Headers/AWSS3TransferUtilityDatabaseHelper.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSS3/AWSS3.framework/Headers/AWSS3TransferUtility+HeaderHelper.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSMTLJSONAdapter.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSMTLManagedObjectAdapter.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDDispatchQueueLogFormatter.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDContextFilterLogFormatter.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDMultiFormatter.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSS3/AWSS3.framework/Headers/AWSS3Serializer.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSExecutor.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSS3/AWSS3.framework/Headers/AWSS3Resources.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSSTSResources.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityResources.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSS3/AWSS3.framework/Headers/AWSS3TransferUtilityTasks.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSFMDatabaseAdditions.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDLogMacros.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDAssertMacros.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDLegacyMacros.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSBolts.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSFMResultSet.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSClientContext.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSSynchronizedMutableDictionary.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCategory.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSKSReachability.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSS3/AWSS3.framework/Headers/AWSS3TransferUtility.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentity.h"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSS3/AWSS3.framework/Modules/module.modulemap"
+- "/Users/silstone/Documents/AmarWorkspace/TuiAi/coreML2/build/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreML.framework/Headers/CoreML.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Vision.framework/Headers/Vision.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "896f10e8ceb03bd431e28075abda76e1"
